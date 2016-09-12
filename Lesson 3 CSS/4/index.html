@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Вивчаємо CSS</title>
+        <style>
+            body{
+                padding: 30px;
+                color: white;
+            }
+            nav {
+                background: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
+                background: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
+                background: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
+                background: linear-gradient(red, blue); /* Standard syntax (must be last) */
+                display: inline-block;
+            }
+            ul, li{
+                margin: 0;
+                padding: 0;
+            }
+            li {
+                list-style-type: none;
+                padding: 10px;
+                border: 1px solid white;
+                display: inline-block;
+            }
+            a {
+                color: white;
+                text-decoration: none;
+            }
+
+            li:hover a {
+                color: red;
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                <li><a href="#">Текст</a></li>
+                <li><a href="#">Текст</a></li>
+                <li><a href="#">Текст</a></li>
+                <li><a href="#">Текст</a></li>
+                <li><a href="#">Текст</a></li>
+            </ul>
+        </nav>
+    </body>
+</html>
